@@ -29,5 +29,13 @@ int main(){
 
     printf("first element of tempArray: %d and address: %p\n", *(*ptr), (*ptr));  // this address is same as ptr address
     printf("second element of tempArray: %d and address: %p\n", *(*ptr+1), (*ptr+1));
+
+
+    int *(*ptrptr)[5] = &arr;
+    printf("Address of first member of ptrptr: %p\n", ptrptr);
+    printf("Address of second member of ptrptr: %p\n", (ptrptr+1));
+
+    printf("first element of arr: %d and address: %p\n", *(*(*ptrptr)), *(*ptrptr)); 
+     printf("second element of arr: %d and address: %p\n", *(*(*ptrptr + 1)), *(*ptrptr+1));  
     return 0;
 }
