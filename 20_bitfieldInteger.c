@@ -36,6 +36,15 @@ int main(){
 
     var |= (1<<23);
     DecToBin_Fun(var);
+
+    // check whether the particuler bit has been set or not
+    if ((var & (1<<23)) == (1<<23))
+    {
+        printf("Bit has been set\n");
+    } else {
+        printf("Bit has not been set\n");
+    }
+    
     
     return 0;
 }
