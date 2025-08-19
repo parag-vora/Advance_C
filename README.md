@@ -9,4 +9,16 @@
 - advance macro
 - variable length array
 - flexible array member
+- typedef and #define
+- const qualifier
+- volatile qualifier
+- restrict qualifier
+- complex number
+- designated initializer
+- binary number
+- bitfield using unsinged int/double
+- bitfield using structure
+- goto
+- nullstatement
+- comma operator
 - ....will update daily
