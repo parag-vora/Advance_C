@@ -8,7 +8,7 @@ void DecToBin_Fun(unsigned int num){
     for (size_t i = 0; i < sizeof(int) * 8; i++)
     {
          unsigned int temp = num/2;
-         array[32 - i] = num%2;
+         array[31 - i] = num%2;
          num = temp;                 
     }
     for (size_t i = 0; i < sizeof(int) * 8; i++)
