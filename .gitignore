@@ -2,3 +2,4 @@
 # ignore executables
 *.exe
 *.json
+*.txt
