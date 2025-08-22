@@ -21,4 +21,12 @@
 - goto
 - nullstatement
 - comma operator
+- jump function(setjump/longjump)
+- different character I/O function(getc, putc, getchar, putchar, fgetc, fputc)
+- different string I/O function (gets, puts, fgets)
+- variadic function (va_list, va_start, va_arg, va_end, va_copy)
+- recursion
+- inline function (function specifier)
+- _Noreturn (function specifier)
+- union vs structure
 - ....will update daily
