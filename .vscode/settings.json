@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "complex": "c",
-        "complex.h": "c"
+        "complex.h": "c",
+        "xlocale": "c"
     }
 }
