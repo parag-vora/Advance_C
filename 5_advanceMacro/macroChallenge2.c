@@ -3,6 +3,8 @@
 #include<stdio.h>
 
 #define SUM(a,b) a+b
+#define SQUARE(X) (X)*(X)
+#define CUBE(X) (X)*(X)*(X)
 
 int main(){
     int num1, num2;
@@ -10,6 +12,8 @@ int main(){
     scanf("%d %d",&num1, &num2);
 
     printf("Sum is %d\n", SUM(num1,num2));
+    printf("Square is : %d\n", SQUARE(num1));
+    printf("Cube is : %d\n", CUBE(num2));
 
     return 0;
 }
