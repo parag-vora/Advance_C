@@ -1,3 +1,5 @@
+// demonstration of different predefined macro
+
 #include<stdio.h>
 
 int main(){
