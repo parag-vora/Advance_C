@@ -21,6 +21,8 @@ int main(){
     } else if(LOWER_CASE(ch))
     {
         printf("%C is lower case\n", ch);
+    } else{
+        printf("Entered char is not a alphabat\n");
     }
     
 
